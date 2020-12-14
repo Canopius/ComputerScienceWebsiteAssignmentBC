@@ -24,8 +24,18 @@ html{
    margin: auto;
 }
 
-h4{
+h1 {
+  font-size: 400%;
   font-family: OpenSans;
+  font-weight: 700;
+  color: rgb(33,33,33);
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+h4 {
+  font-family: OpenSans;
+  font-size: 100%;
   font-weight: 600;
   color: rgb(59, 59, 59);
 }
@@ -35,7 +45,7 @@ h4{
   grid-template-columns: 5px 0.25fr 0.25fr 0.5fr 5px;
 }
 
-.smallCallToAction{
+.smallCallToAction {
 
 }
 
@@ -46,7 +56,7 @@ h4{
 
   grid-column: 2;
   border-style: solid;
-  border-radius: 15px;
+  border-radius: 20px;
   background-color: #62e779;
   border-color: #62e779;
 }
@@ -54,8 +64,14 @@ h4{
 .mainButton > p {
   font-family: OpenSans;
   font-weight: 600;
+  font-size: 90%;
   text-align: center;
   color: rgb(33,33,33);
+}
+
+.mainButton:hover {
+  background-color: #8ee79e;
+  border-color: #8ee79e;
 }
 
 .main {
@@ -75,7 +91,11 @@ h4{
   transform: rotate(-2deg) scale(5,2) translate(20%, -30%);
 }
 
-.content{
+.mainHeaderSlanted { 
+
+}
+
+.content {
   grid-row: 3;
   grid-column: 1;
   display: grid;
@@ -83,16 +103,38 @@ h4{
 
 }
 
-.mainHome{
+.mainHome {
   grid-column: 2;
+  display: grid;
+  grid-template-rows: 40% 5% 10% 5% 10% 1fr;
 }
 
-.mainHome > h1{
-  font-size: 500%;
-  font-family: OpenSans;
-  font-weight: 700;
-  color: rgb(33,33,33);
-  margin-bottom: 0px;
+.headerContent {
+  grid-row: 1;
+  grid-column: 1;
+
+  display: grid;
+  grid-template-rows: 20% 1fr 30%;
+  z-index: 2;
+}
+
+.headerContent > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.headerContent ul li {
+  grid-row: 2;
+}
+
+.headerContent > img{
+  transform: scale(0.8, 0.8);
+}
+
+.TopBarLogo {
+  grid-row: 2;
+  overflow: hidden;
 }
 
 .mainFooterLevel { 
