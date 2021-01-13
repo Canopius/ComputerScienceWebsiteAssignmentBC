@@ -9,7 +9,8 @@
 .mainHome {
     grid-column: 2;
     display: grid;
-    grid-template-rows: 40% 5% 10% 5% 10% 1fr;
+
+    grid-template-rows: 60% 5% 10% 10% 10% 1fr;
 }
 
 .largeCallToAction {

@@ -25,6 +25,15 @@
     text-align: center;
 }
 
+.bestClient > div > p{
+    font-size: 400%;
+    font-family: OpenSans;
+    font-weight: 700;
+    color: rgb(33,33,33);
+    margin: 0px;
+    overflow: hidden;
+}
+
 .subClientL{
     grid-column: 2/3;
     background-color: #ffffff;
@@ -39,6 +48,15 @@
     display:flex;
     align-items: center;
     justify-content: center;
+}
+
+.subClientL > div > p{
+    font-size: 400%;
+    font-family: OpenSans;
+    font-weight: 700;
+    color: rgb(33,33,33);
+    margin: 0px;
+    overflow: hidden;
 }
 
 .subClientR{
@@ -57,7 +75,7 @@
     justify-content: center;
 }
 
-p{
+.subClientR > div > p{
     font-size: 400%;
     font-family: OpenSans;
     font-weight: 700;
