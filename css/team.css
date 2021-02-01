@@ -7,8 +7,9 @@
     grid-template-rows: 0.1fr 1fr 0.1fr;
     grid-gap: 50px;
 
+    align-content: center;
     justify-content: center;
-  }
+}
 
 .team{
     grid-column: 2;

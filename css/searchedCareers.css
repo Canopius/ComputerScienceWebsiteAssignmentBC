@@ -1,0 +1,54 @@
+.content {
+    grid-row: 3;
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+    grid-template-rows: repeat(max(4, a), 10%);
+}
+  
+.mainHome {
+    grid-column: 2;
+    display: grid;
+
+    grid-template-rows: 60% 5% 10% 10% 10% 1fr;
+}
+
+.largeCallToAction {
+    display: grid;
+    grid-template-columns: 5px 0.25fr 0.25fr 0.5fr 5px;
+}
+
+form.SearchForm input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: #ffffff;
+}
+
+form.SearchForm button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #62e779;
+  color: rgb(33,33,33);
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.SearchForm button:hover {
+  background: #62e779;
+}
+  
+.careerCard {
+  grid-column: 2/3;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 6px #8b8b8b;
+  
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr;
+}

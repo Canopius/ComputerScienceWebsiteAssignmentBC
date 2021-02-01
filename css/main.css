@@ -37,7 +37,7 @@ h4 {
   font-family: OpenSans;
   font-size: 100%;
   font-weight: 600;
-  color: rgb(59, 59, 59);
+  color: rgb(71, 71, 71);
 }
 
 .main {
@@ -218,6 +218,38 @@ h4 {
 }
 
 .footerContent li p{
+  color: rgb(33,33,33);
+
+  font-family: OpenSans;
+  font-weight: 100;
+  font-size: 90%;
+}
+
+.boringText{
+  grid-column: 2;
+  align-content: center;
+  justify-content: center;
+}
+
+.boringText > h3{
+  font-size: 350%;
+  font-family: OpenSans;
+  font-weight: 700;
+  color: rgb(33,33,33);
+  margin: 0px;
+  overflow: hidden;
+}
+
+.boringText > h6{
+  font-size: 100%;
+  font-family: OpenSans;
+  font-weight: 300;
+  color: rgb(71, 71, 71);
+  margin: 0px;
+  overflow: hidden;
+}
+
+.boringText > p{
   color: rgb(33,33,33);
 
   font-family: OpenSans;
