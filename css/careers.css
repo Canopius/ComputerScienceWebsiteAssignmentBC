@@ -42,4 +42,22 @@ form.SearchForm input[type=text] {
     background: #62e779;
   }
   
+.careerCardL {
+  grid-column: 2/3;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 6px #8b8b8b;
   
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr;
+}
+  
+.careerCardR {
+  grid-column: 3/4;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 6px #8b8b8b;
+  
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr;
+}

@@ -26,20 +26,20 @@
       </div>
       <div class='mainHeaderSlanted'></div>
       <!-- CONTENT -->
-      <div class='content'>
-        <div class='mainHome'>
+      <div class='content' id='content'>
+        <div class='mainHome' id='mainHome'>
           <h1>Providing Success For All Our Clients</h1>
           <div></div>
           <h4>Redefining the internet since 2012</h4>
           <div></div>
           <div class='SearchContainer'>
-            <form action="searchedCareers.html" class = 'SearchForm' id = 'SearchForm'>
+            <form onSubmit="return searchCareers()" class = 'SearchForm' id = 'SearchForm'>
               <input type="text" placeholder="Search..." name="search" id='SearchBox'>
               <button type="button" onclick="searchCareers()"><i class="fa fa-search"></i></button>
             </form>
           </div>
         </div>
-        <div style = "grid-column: 3;">
+        <div id="mainImg" style = "grid-column: 3;">
           <img src="../Assets/PlaceholderImage1.jpg" width="65%" height="95%" style="transform: translate(100px, 75px)">
         </div>
       </div>
