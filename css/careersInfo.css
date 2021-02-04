@@ -1,0 +1,57 @@
+.content {
+    grid-row: 3;
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+}
+  
+.mainHome {
+    grid-column: 2;
+    display: grid;
+
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 6px #8b8b8b;
+}
+
+.largeCallToAction {
+  display: grid;
+  grid-template-columns: 5px 0.25fr 0.25fr 0.5fr 5px;
+}
+
+.mainButton {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+
+  grid-column: 2;
+  border-style: solid;
+  border-radius: 20px;
+  background-color: #62e779;
+  border-color: #62e779;
+}
+
+.mainButton p {
+  font-family: OpenSans;
+  font-weight: 600;
+  font-size: 90%;
+  text-align: center;
+  color: rgb(33,33,33);
+}
+
+.mainButton:hover {
+  background-color: #8ee79e;
+  border-color: #8ee79e;
+}
+
+.mainButton a:link{
+  text-decoration: none;
+}
+
+p, ul {
+  color: rgb(33,33,33);
+
+  font-family: OpenSans;
+  font-weight: 100;
+  font-size: 90%;
+}

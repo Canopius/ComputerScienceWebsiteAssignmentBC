@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Assignment - Careers</title>
+    <title>Assignment - Career Info</title>
     <link href="..//css/main.css" rel="stylesheet" type="text/css" />
-    <link href="..//css/careers.css" rel="stylesheet" type="text/css" />
+    <link href="..//css/careersInfo.css" rel="stylesheet" type="text/css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <script src="..//javascript/search.js"></script>
   </head>
-  <body>
+  <body onload="loadCareerInfo()">
    
     <div class='main'>
       <!-- Header -->
@@ -28,19 +28,21 @@
       <!-- CONTENT -->
       <div class='content' id='content'>
         <div class='mainHome' id='mainHome'>
-          <h1>Providing Success For All Our Clients</h1>
-          <div></div>
-          <h4>Redefining the internet since 2012</h4>
-          <div></div>
-          <div class='SearchContainer'>
-            <form onSubmit="return searchCareers()" class = 'SearchForm' id = 'SearchForm'>
-              <input type="text" placeholder="Search..." name="search" id='SearchBox'>
-              <button type="button" onclick="searchCareers()"><i class="fa fa-search"></i></button>
-            </form>
+          <h1 id='JobTitle' style='grid-row: 1;'></h1>
+          <h4>What you will do:</h4>
+          <p id='JobDescription'></p>
+          <h4>Requirements:</h4>
+          <ul id='JobRequirements'></ul>
+          <h4>Perks:</h4>
+          <ul id='JobPerks'></ul>
+          <div class='largeCallToAction'>
+            <div class='mainButton'>
+              <a href='apply.html'>
+              <!--<div class='shadow'></div> -->
+                <p>Apply</p>
+              </a>
+            </div>
           </div>
-        </div>
-        <div id="mainImg" style = "grid-column: 3;">
-          <img src="../Assets/PlaceholderImage1.jpg" width="65%" height="95%" style="transform: translate(100px, 75px)">
         </div>
       </div>
 
