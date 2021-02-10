@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Assignment - Apply</title>
+    <link href="..//css/main.css" rel="stylesheet" type="text/css" />
+    <link href="..//css/apply.css" rel="stylesheet" type="text/css" />
+    <script src="..//javascript/apply.js"></script>
+  </head>
+  <body>
+   
+    <div class='main'>
+      <!-- Header -->
+      <div class='headerContent'>
+        <ul>
+          <li><div class='Logo'><a href='index.html'><img src="../Assets/Logo.svg" alt="Logo" class = 'TopBarLogo'></a></div></li>
+          <li><a href='index.html'>Home</a></li>
+          <li><a href='team.html'>Team</a></li>
+          <li><a class='Current' href='careers.html'>Careers</a></li>
+          <li><a href='about.html'>About Us</a></li>
+          <li><a href='ourWork.html'>Our Work</a></li>
+          <li><a href='contact.html'>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class='mainHeaderSlanted'></div>
+      <!-- CONTENT -->
+      <div class='content'>
+        <div class='boringText'>
+          <h3 id='JobTitle'></h3>
+          <br><br>
+          <form action='formSubmitted.html'>
+            <div class='InputBox'>
+              
+              <div>
+                <p>First Name</p>
+                <input class='short' type='text' placeholder='Joe'>
+              </div>
+              
+              <div>
+                <p>Last Name</p>
+                <input class='short' type='text' placeholder='Bloggs'>
+              </div>
+              
+              <div>
+                <p>Email Address</p>
+                <input class='short' type='email' placeholder='JoeBloggs@gmail.com'>
+              </div>
+              
+              <div>
+                <p>Confirm Email Address</p>
+                <input class='short' type='email' placeholder='JoeBloggs@gmail.com'>
+              </div>
+
+              <h2>Experiance</h2>
+              <button id='callToAction' type="button" onclick="addExperiance()">Add</button>
+              <div id = 'experiance'>
+                <div id='experianceBlock'>
+                  <div>
+                    <p>Title</p>
+                    <input class='short' type='text' placeholder='Junior Web Developer'>
+                  </div>
+                  <div>
+                    <p>Company</p>
+                    <input class='short' type='text' placeholder='Company'>
+                  </div>
+                  <div style="grid-column: 1/3;">
+                    <p>Description</p>
+                    <textarea class='long' type='text' placeholder='Every day I did XYZ, this helped to develop X.'></textarea>
+                  </div>
+                  <div>
+                    <p>From</p>
+                    <input class='short' type='date' placeholder='Select a date...'>
+                  </div>
+                  <div>
+                    <p>To</p>
+                    <input class='short' type='date' placeholder='Select a date...'>
+                  </div>
+                  <div>
+                    <button id='smallCallToAction' type="button" onclick="cancelExperiance()">Cancel</button>
+                  </div>
+                </div>
+              </div>
+
+              <h2>Education</h2>
+              <div id = 'education'>
+
+              </div>
+
+              
+              <div>
+                <p>Subject</p>
+                <input class='short' type='text' placeholder='Café website'>
+              </div>
+              
+              <div>
+                <p>Budget</p>
+                <input class='short' type='text' placeholder='$1000-$1500'>
+              </div>
+              
+              <div>
+                <p>Project Summary</p>
+                <textarea class='long' type='text' placeholder='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum, lacus ut ullamcorper feugiat, nunc elit auctor leo, eu ultricies dui sem ac lectus. Donec vel erat sit amet erat rutrum ultricies. Pellentesque condimentum justo neque, id fermentum justo mollis ac. Phasellus a nisi sit amet risus feugiat pulvinar vitae eget ipsum. Suspendisse consequat enim vitae velit mollis auctor. Maecenas ut finibus risus. Quisque nec odio nec nunc ultrices iaculis eu placerat tortor. Aliquam id accumsan ipsum. Vivamus a purus interdum, dictum ipsum dignissim, dignissim enim. Etiam in leo ligula.'></textarea>
+              </div>
+              <div class='CallToAction'>
+                <input type='Submit' value='Submit'>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <!-- FOOTER -->
+      <div class='mainFooterLevel'></div>
+      <div class = 'footerContent'>
+        <ul class='firstFooterElement'>
+          <li><p>Working with talented people is our passion<br>we'd love to build something great together</p></li>
+          <li><a href="contact.html">Work with us</a></li>
+        </ul>
+        <ul class='secondFooterElement'>
+          <li><h6>Address</h6></li>
+          <li><p>2101 E NASA PKWY,<br>Houston, TX, USA</p></li>
+        </ul>
+        <ul class='thirdFooterElement'>
+          <li><h6>Contact Us</h6></li>
+          <li><p>(218) 483-51111<br>Example@example.com</p></li>
+        </ul>
+        <ul class='fourthFooterElement'>
+          <li><h6>Social Media</h6></li>
+          <li>
+            <br>
+            <table>
+              <tr>
+              <th>
+                <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img src="../Assets/Youtube.svg" alt="Youtube" class ='FooterLogo'></a>
+              </th>
+              <th>
+                <a href='https://twitter.com/ulalaunch'><img src="../Assets/Twitter.svg" alt="Twitter" class ='FooterLogo'></a>
+              </th>
+              </tr>
+            </table>
+          </li>
+        </ul>
+        
+      </div>
+      
+    </div>
+    </body>
+</html>

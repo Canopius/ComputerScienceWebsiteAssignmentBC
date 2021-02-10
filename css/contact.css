@@ -38,6 +38,14 @@ input[type=text]:focus {
     border: 3px solid #555;
 }
 
+textarea[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=email]:focus {
+    border: 3px solid #555;
+}
+
 input[type=submit] {
     background-color: #62e779;
     color: rgb(33,33,33);
