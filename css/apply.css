@@ -23,8 +23,6 @@
     display: grid;
     grid-template-columns: 20px 1fr 20px;
     
-    
-    
 }
 
 #experianceBlock, #educationBlock{
@@ -76,6 +74,7 @@ p{
     resize: none;
     font-family: OpenSans;
     font-size: 90%;
+	
 }
 
 input[type=text]:focus {
@@ -98,6 +97,12 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     float: right;
+}
+
+input[type=file]{
+	background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 6px #a0a0a0;
 }
 
 #callToAction{
