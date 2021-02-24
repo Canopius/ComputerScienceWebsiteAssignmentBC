@@ -4,9 +4,49 @@
     display: grid;
 
     grid-template-columns: 0.25fr 1fr 0.25fr;
-    grid-template-rows: 0.1fr 1fr 0.1fr;
-    grid-gap: 0px;
+    grid-template-rows: 0.05fr 50px 1fr 0.1fr;
 
     align-content: center;
     justify-content: center;
+}
+
+.timeline{
+	display: grid;
+
+	grid-column: 2/3;
+	grid-row: 3;
+	grid-row-gap: 25px;
+    grid-template-columns: 1fr 0.75fr 1fr;
+	grid-template-rows: repeat(auto, 1fr);
+}
+
+.event{
+
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 0 0 6px #8b8b8b;
+	border: none;
+
+	display: grid;
+	grid-template-rows: 0.5fr 0.5fr;
+
+	
+}
+
+.left{
+	grid-column: 1/2;
+	transform: translate(-50%, 0);
+}
+
+.right{
+	grid-column: 3/4;
+	transform: translate(50%, 0);
+}
+
+.visible{
+	transform: translate(0, 0);
+}
+
+.event{
+	transition: transform 2s;
 }
