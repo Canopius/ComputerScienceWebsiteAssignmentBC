@@ -28,7 +28,8 @@
 	border: none;
 
 	display: grid;
-	grid-template-rows: 0.5fr 0.5fr;
+	grid-template-rows: 0.2fr 0.2fr;
+	grid-template-columns: 0.02fr 1fr 0.02fr;
 
 	
 }
@@ -49,4 +50,20 @@
 
 .event{
 	transition: transform 2s;
+}
+
+.eventContent{
+	grid-column: 2;
+}
+
+.eventContent p{
+	color: rgb(33,33,33);
+
+	font-family: OpenSans;
+	font-weight: 100;
+	font-size: 90%;
+}
+
+.eventContent h4{
+	font-size: 150%;
 }

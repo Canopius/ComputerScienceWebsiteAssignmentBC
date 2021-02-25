@@ -9,6 +9,8 @@
     grid-column: 2;
     display: grid;
 
+	grid-template-columns: .1fr 1fr .1fr;
+
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0 0 6px #8b8b8b;

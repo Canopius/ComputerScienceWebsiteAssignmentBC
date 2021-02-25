@@ -1,6 +1,45 @@
-var allCareers = [  [["Entry level web developer", "PHP", "HTML", "CSS", "Databases", "SQL", "JavaScript", "JS"], ["£45,000 per year", "00001", ["Demonstrable software/web development and programming skills (relevant qualifications, certifications, commercial experience or personal projects)", "Solid understanding of HTML and CSS", "Relational databases/SQL", "JavaScript and JavaScript libraries (e.g. jQuery)"], ["Develop and maintain software for client websites and other digital platforms", "Contribute to the deployment of code to test, staging and live environments", "Produce technical specifications and documentation", "Participate in project work and quality assurance processes", "Work collaboratively with colleagues and share knowledge and skills"],"An exciting position has become available for a full-time Entry-level Web/Software Developer to join a friendly team. The successful candidate will earn a competitive salary. the role will be to work as part of a team to produce and deploy software which complies with best practice and delivers excellent performance and user experience. The role is suitable for a less experienced Developer, at an early stage in their web development career journey."], ["Competitive salaries and annual bonuses","Ample paid time off as needed we are about getting things done, not face time","Paid parental leave","Flexible work and time-off schedules to encourage work-family balance and holidays","Delicious catered lunch daily plus lots of snacks and beverages","Great location: short walking distance to Caltrain and downtown Mountain View.","Awesome team events, on-sites and off-sites, company parties and BBQs, and weekly board game nights","A fun, high-caliber team that trusts you and gives you the freedom to be brilliant"]],
-                    [["Ux Designer"], ["£20,000 per year"]],
-                    [["Frontend Programmer", "HTML", "CSS"], ["£40,000 per year"]]
+var allCareers = [	[["Entry level web developer", "PHP", "HTML", "CSS", "Databases", "SQL", "JavaScript", "JS"], 
+					["£25,000 per year", "00001"], 
+					["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Sem integer vitae justo eget magna fermentum iaculis. Nec feugiat nisl pretium fusce. Vulputate ut pharetra sit amet aliquam id diam. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet massa vitae tortor. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Fringilla ut morbi tincidunt augue interdum velit euismod in."], 
+					["Risus at ultrices mi tempus imperdiet nulla malesuada", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", "Mauris ultrices eros in cursus turpis massa tincidunt dui", "Dolor sit amet consectetur adipiscing elit"],
+					["Est ultricies integer quis auctor elit sed", "Venenatis lectus magna fringilla urna porttitor", "Tellus id interdum velit laoreet id donec ultrices", "Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus"]],
+					
+					[["UX Designer"], 
+					["£30,000 per year", "00002"], 
+					["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Sem integer vitae justo eget magna fermentum iaculis. Nec feugiat nisl pretium fusce. Vulputate ut pharetra sit amet aliquam id diam. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet massa vitae tortor. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Fringilla ut morbi tincidunt augue interdum velit euismod in."], 
+					["Risus at ultrices mi tempus imperdiet nulla malesuada", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", "Mauris ultrices eros in cursus turpis massa tincidunt dui", "Dolor sit amet consectetur adipiscing elit"],
+					["Est ultricies integer quis auctor elit sed", "Venenatis lectus magna fringilla urna porttitor", "Tellus id interdum velit laoreet id donec ultrices", "Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus"]],	   
+
+					[["Senior web developer", "PHP", "HTML", "CSS", "Databases", "SQL", "JavaScript", "JS"], 
+					["£75,000 per year", "00003"], 
+					["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Sem integer vitae justo eget magna fermentum iaculis. Nec feugiat nisl pretium fusce. Vulputate ut pharetra sit amet aliquam id diam. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet massa vitae tortor. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Fringilla ut morbi tincidunt augue interdum velit euismod in."], 
+					["Risus at ultrices mi tempus imperdiet nulla malesuada", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", "Mauris ultrices eros in cursus turpis massa tincidunt dui", "Dolor sit amet consectetur adipiscing elit"],
+					["Est ultricies integer quis auctor elit sed", "Venenatis lectus magna fringilla urna porttitor", "Tellus id interdum velit laoreet id donec ultrices", "Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus"]],
+
+					[["Full Stack Developer", "PHP", "HTML", "CSS", "Databases", "SQL", "JavaScript", "JS"], 
+					["£65,000 per year", "00004"], 
+					["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Sem integer vitae justo eget magna fermentum iaculis. Nec feugiat nisl pretium fusce. Vulputate ut pharetra sit amet aliquam id diam. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet massa vitae tortor. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Fringilla ut morbi tincidunt augue interdum velit euismod in."], 
+					["Risus at ultrices mi tempus imperdiet nulla malesuada", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", "Mauris ultrices eros in cursus turpis massa tincidunt dui", "Dolor sit amet consectetur adipiscing elit"],
+					["Est ultricies integer quis auctor elit sed", "Venenatis lectus magna fringilla urna porttitor", "Tellus id interdum velit laoreet id donec ultrices", "Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus"]],
+
+					[["PR Representative", "People", "Social Media"], 
+					["£25,000 per year", "00005"], 
+					["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Sem integer vitae justo eget magna fermentum iaculis. Nec feugiat nisl pretium fusce. Vulputate ut pharetra sit amet aliquam id diam. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet massa vitae tortor. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Fringilla ut morbi tincidunt augue interdum velit euismod in."], 
+					["Risus at ultrices mi tempus imperdiet nulla malesuada", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", "Mauris ultrices eros in cursus turpis massa tincidunt dui", "Dolor sit amet consectetur adipiscing elit"],
+					["Est ultricies integer quis auctor elit sed", "Venenatis lectus magna fringilla urna porttitor", "Tellus id interdum velit laoreet id donec ultrices", "Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus"]],
+
+					[["Ui Designer", "GUI", "Ui", "Creative"], 
+					["£30,000 per year", "00006"], 
+					["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Sem integer vitae justo eget magna fermentum iaculis. Nec feugiat nisl pretium fusce. Vulputate ut pharetra sit amet aliquam id diam. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet massa vitae tortor. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Fringilla ut morbi tincidunt augue interdum velit euismod in."], 
+					["Risus at ultrices mi tempus imperdiet nulla malesuada", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", "Mauris ultrices eros in cursus turpis massa tincidunt dui", "Dolor sit amet consectetur adipiscing elit"],
+					["Est ultricies integer quis auctor elit sed", "Venenatis lectus magna fringilla urna porttitor", "Tellus id interdum velit laoreet id donec ultrices", "Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus"]],
+
+					[["Hardware Technician", "Servers", "Hardware", "IT"], 
+					["£35,000 per year", "00007"], 
+					["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Sem integer vitae justo eget magna fermentum iaculis. Nec feugiat nisl pretium fusce. Vulputate ut pharetra sit amet aliquam id diam. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Sit amet massa vitae tortor. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Fringilla ut morbi tincidunt augue interdum velit euismod in."], 
+					["Risus at ultrices mi tempus imperdiet nulla malesuada", "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", "Mauris ultrices eros in cursus turpis massa tincidunt dui", "Dolor sit amet consectetur adipiscing elit"],
+					["Est ultricies integer quis auctor elit sed", "Venenatis lectus magna fringilla urna porttitor", "Tellus id interdum velit laoreet id donec ultrices", "Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus"]],
+
 ];
 
 function loadCareerInfo(){
@@ -18,15 +57,18 @@ function loadCareerInfo(){
     document.getElementById("JobDescription").innerHTML = allCareers[index][1][3];
     document.getElementById("JobRequirements").innterHTML = allCareers[index][1][2]
 
-    for (var i = 1, len = allCareers[index][1][2].length; i < len; i++){
+	document.getElementById("JobDescription").innerHTML = allCareers[index][2]
+	
+
+    for (var i = 0, len = allCareers[index][3].length; i < len; i++){
         const li = document.createElement('li');
-        li.innerHTML = allCareers[index][1][2][i];
+        li.innerHTML = allCareers[index][3][i];
         document.getElementById("JobRequirements").append(li);
     }
 
-    for (var i = 1, len = allCareers[index][1][3].length; i < len; i++){
+    for (var i = 0, len = allCareers[index][4].length; i < len; i++){
         const li = document.createElement('li');
-        li.innerHTML = allCareers[index][1][3][i];
+        li.innerHTML = allCareers[index][4][i];
         document.getElementById("JobPerks").append(li);
     }
 
