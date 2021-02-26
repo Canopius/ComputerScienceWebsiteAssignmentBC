@@ -3,6 +3,8 @@
     grid-column: 1;
     display: grid;
     grid-template-columns: 2% 0.4fr 0.6fr 2%;
+	grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
+	grid-row-gap: 50px;
 }
   
 .mainHome {
@@ -24,42 +26,57 @@ form.SearchForm input[type=text] {
     float: left;
     width: 50%;
     background: #ffffff;
-  }
-  
-  form.SearchForm button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #62e779;
-    color: rgb(33,33,33);
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
-  }
-  
-  form.SearchForm button:hover {
-    background: #62e779;
-  }
+}
+
+form.SearchForm button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #62e779;
+	color: rgb(33,33,33);
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+}
+
+form.SearchForm button:hover {
+	background: #62e779;
+}
+
+.courses{
+	grid-column: 2/3;
+	grid-row: 2;
+}
   
 .careerCardL {
-  grid-column: 2/3;
-  background-color: #ffffff;
-  border-radius: 20px;
-  box-shadow: 0 0 6px #8b8b8b;
-  border: none;
-  
-  display: grid;
-  grid-template-rows: 0.5fr 0.5fr;
+	grid-column: 2/3;
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 0 0 6px #8b8b8b;
+	border: none;
+
+	display: grid;
+	grid-template-rows: 0.5fr 0.5fr;
 }
   
 .careerCardR {
-  grid-column: 3/4;
-  background-color: #ffffff;
-  border-radius: 20px;
-  box-shadow: 0 0 6px #8b8b8b;
-  border: none;
-  
-  display: grid;
-  grid-template-rows: 0.5fr 0.5fr;
+	grid-column: 3/4;
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 0 0 6px #8b8b8b;
+	border: none;
+
+	display: grid;
+	grid-template-rows: 0.5fr 0.5fr;
 }
+
+.boringText > ul > li > a{
+	color: rgb(0, 4, 255);
+
+	text-decoration: none;
+  
+	font-family: OpenSans;
+	font-weight: 100;
+	font-size: 90%;
+  }

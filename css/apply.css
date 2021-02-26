@@ -11,6 +11,15 @@
     justify-content: center;
 }
 
+h2{
+	font-size: 200%;
+	font-family: OpenSans;
+	font-weight: 700;
+	color: rgb(33,33,33);
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+
 .InputBox {
     display: grid;
     grid-template-columns: 1fr 1fr;

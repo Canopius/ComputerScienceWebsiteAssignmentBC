@@ -92,6 +92,7 @@ function searchCareers(){
     if (ToShow.length > 0){
         document.getElementById("mainHome").remove();
         document.getElementById("mainImg").remove();
+		document.getElementById("courses").remove();
         document.getElementById("content").style.gridTemplateColumns = "0.25fr 0.25fr 0.25fr 0.25fr";
         document.getElementById("content").style.gridTemplateRows= "repeat(auto, 1fr)";
         document.getElementById("content").style.gridGap = "20px";
