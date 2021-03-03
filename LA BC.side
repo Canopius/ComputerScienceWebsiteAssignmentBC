@@ -1,0 +1,167 @@
+{
+  "id": "16703adb-e68e-4b6d-8853-70513096f34e",
+  "version": "2.0",
+  "name": "LA BC",
+  "url": "http://127.0.0.1:5500/html/index.html",
+  "tests": [{
+    "id": "fda18eb6-a69a-4867-9fcf-810147360231",
+    "name": "NavigationBar",
+    "commands": [{
+      "id": "592862b5-4595-454b-9326-341969d36c5d",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/html/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7df24f40-f053-485d-abb5-5c864de62a03",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1104x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1eaac700-b136-4015-84bb-4707de0fd827",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Team",
+      "targets": [
+        ["linkText=Team", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Team')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'team.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Team')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cce862a3-febc-4e86-b1f7-007bd439028a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TopBarLogo",
+      "targets": [
+        ["css=.TopBarLogo", "css:finder"],
+        ["xpath=//img[@alt='Logo']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "135d5511-44a9-4797-86aa-26ac9a72b4cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Careers",
+      "targets": [
+        ["linkText=Careers", "linkText"],
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Careers')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'careers.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Careers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccdb966d-b50f-40dd-a2ef-6e6c30f5670e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TopBarLogo",
+      "targets": [
+        ["css=.TopBarLogo", "css:finder"],
+        ["xpath=//img[@alt='Logo']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e98c4b6c-2754-4305-881f-0dbe8cc678b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Us",
+      "targets": [
+        ["linkText=About Us", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'About Us')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'about.html')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b5a1a26-946e-47ca-afa6-a983b1a3adcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TopBarLogo",
+      "targets": [
+        ["css=.TopBarLogo", "css:finder"],
+        ["xpath=//img[@alt='Logo']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25aaa16b-d583-4878-971f-86b6eee3f8b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Work",
+      "targets": [
+        ["linkText=Our Work", "linkText"],
+        ["css=li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Work')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'ourWork.html')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Work')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98a78f98-4a5d-47ef-9143-05df6b2c4bae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TopBarLogo",
+      "targets": [
+        ["css=.TopBarLogo", "css:finder"],
+        ["xpath=//img[@alt='Logo']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d195232-e84f-4bb1-870e-54e8884da255",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Us",
+      "targets": [
+        ["linkText=Contact Us", "linkText"],
+        ["css=li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'contact.html')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e52a11a6-d7ba-4d72-880a-c020b0b11828",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TopBarLogo",
+      "targets": [
+        ["css=.TopBarLogo", "css:finder"],
+        ["xpath=//img[@alt='Logo']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0389825b-ffc8-4037-9d69-cb94d1c8686c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "444a98dc-5ac8-4fa9-8156-3c69f2414ec5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://127.0.0.1:5500/", "http://127.0.0.1:5500/html/index.html"],
+  "plugins": []
+}
