@@ -15,7 +15,6 @@ function addExperiance(){
     titleP.innerHTML = "Title"
     titleDiv.appendChild(titleP);
     const titleI = document.createElement('input');
-	titleI.required = true;
     titleI.className = 'short';
     titleI.type = 'text';
     titleI.placeholder = 'Junior Web Developer';
@@ -27,7 +26,6 @@ function addExperiance(){
     companyP.innerHTML = "Company"
     companyDiv.appendChild(companyP);
     const companyI = document.createElement('input');
-	companyI.required = true;
     companyI.className = 'short';
     companyI.type = 'text';
     companyI.placeholder = 'Company';
@@ -40,7 +38,6 @@ function addExperiance(){
     descriptionP.innerHTML = "Description"
     descriptionDiv.appendChild(descriptionP);
     const descriptionI = document.createElement('textarea');
-	descriptionI.required = true;
     descriptionI.className = 'long';
     descriptionI.type = 'text';
     descriptionI.placeholder = 'Every day I did XYZ, this helped to develop X.';
@@ -52,7 +49,6 @@ function addExperiance(){
     fromP.innerHTML = "From"
     fromDiv.appendChild(fromP);
     const fromI = document.createElement('input');
-	fromI.required = true;
     fromI.className = 'short';
     fromI.type = 'date';
     fromDiv.appendChild(fromI);
@@ -63,7 +59,6 @@ function addExperiance(){
     toP.innerHTML = "To"
     toDiv.appendChild(toP);
     const toI = document.createElement('input');
-	toI.required = true;
     toI.className = 'short';
     toI.type = 'date';
     toDiv.appendChild(toI);
@@ -93,7 +88,6 @@ function addEducation(){
     titleP.innerHTML = "Institution"
     titleDiv.appendChild(titleP);
     const titleI = document.createElement('input');
-	titleI.required = true;
     titleI.className = 'short';
     titleI.type = 'text';
     titleI.placeholder = 'Oxford University';
@@ -105,7 +99,6 @@ function addEducation(){
     companyP.innerHTML = "Course"
     companyDiv.appendChild(companyP);
     const companyI = document.createElement('input');
-	companyI.required = true;
     companyI.className = 'short';
     companyI.type = 'text';
     companyI.placeholder = 'Software Engineering';
@@ -118,7 +111,6 @@ function addEducation(){
     descriptionP.innerHTML = "Description"
     descriptionDiv.appendChild(descriptionP);
     const descriptionI = document.createElement('textarea');
-	descriptionI.required = true;
     descriptionI.className = 'long';
     descriptionI.type = 'text';
     descriptionI.placeholder = 'This is what I did on the course.';
@@ -130,7 +122,6 @@ function addEducation(){
     fromP.innerHTML = "From"
     fromDiv.appendChild(fromP);
     const fromI = document.createElement('input');
-	fromI.required = true;
     fromI.className = 'short';
     fromI.type = 'date';
     fromDiv.appendChild(fromI);
@@ -141,7 +132,6 @@ function addEducation(){
     toP.innerHTML = "To"
     toDiv.appendChild(toP);
     const toI = document.createElement('input');
-	toI.required = true;
     toI.className = 'short';
     toI.type = 'date';
     toDiv.appendChild(toI);
